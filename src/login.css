@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+.login-box{
+    height: 100%;
+  
+    
+}
+
+.bg-layer{
+    background:url('../public/bg.jpg');
+    height:100vh;
+    background-position:center;
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+  position:relative;
+  z-index: 0;
+}
+
+.login-form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  
+  
+}
